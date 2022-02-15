@@ -1,11 +1,18 @@
 .container {
-  background-color: black;
   width: 400px;
   height: 200px;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .btn {
   color: #fff;
   background-color: #000;
@@ -14,7 +21,11 @@
   cursor: pointer;
   font-weight: bold;
 }
+
 .btn:hover {
   color: #000;
   background-color: #fff;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
+/*# sourceMappingURL=style.css.map */
