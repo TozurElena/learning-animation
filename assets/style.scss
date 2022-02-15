@@ -1,5 +1,5 @@
 .container {
-  width: 400px;
+  width: 500px;
   height: 200px;
   background-color: #000;
   display: flex;
@@ -13,9 +13,12 @@
   padding: 10px;
   cursor: pointer;
   font-weight: bold;
+
   &:hover {
     color: #000;
     background-color: #fff;
     transition-duration: 1s;
+    transform: translate(100px, 0);
+    // transform: scale(1.5, 1.5);
   }
 }

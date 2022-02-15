@@ -1,5 +1,5 @@
 .container {
-  width: 400px;
+  width: 500px;
   height: 200px;
   background-color: #000;
   display: -webkit-box;
@@ -27,5 +27,7 @@
   background-color: #fff;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
+  -webkit-transform: translate(100px, 0);
+          transform: translate(100px, 0);
 }
 /*# sourceMappingURL=style.css.map */
